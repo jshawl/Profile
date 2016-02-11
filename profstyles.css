@@ -1,0 +1,66 @@
+header{
+  width: auto;
+  height: auto;
+  text-align: center;
+  background: url('http://hivewallpaper.com/wallpaper/2015/05/cool-3d-abstract-background-27-free-hd-wallpaper.gif');
+  background-size: cover;
+  color: white;
+  font-family: "Verdana";
+}
+
+ul {
+  padding: 10px;
+  background: #282828;
+  border: 2px solid white;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-family:"Verdana";
+}
+nav{
+  margin: auto;
+}
+nav a{
+ color: #FFFFFF;
+ padding: 1em;
+}
+
+body{
+  background-image: url('http://hdwallpaperslovely.com/wp-content/gallery/creative-mobile-wallpapers/Creative-splash-of-full-colors-wallpapers-background-1920x1080.jpg');
+  background-size: cover;
+}
+
+p{
+  color: #ffffff;
+}
+
+.Projects a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 2% 3%;
+   background: #222;
+   color: #fff;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+   border-radius: 10px;
+   border: 2px solid #CCC;
+}
+
+.bottom_half{
+  background-color: #C0C0C0;
+
+
+
+}
+
+.bottom_half h1{
+  color: #ffffff;
+}
