@@ -32,6 +32,21 @@ nav a{
  padding: 1em;
 }
 
+.Projects1{
+  background: #000 url('http://www.freecreatives.com/wp-content/uploads/2015/10/beach-waves-sunset-wide-high-definition-wallpaper.jpg') no-repeat;
+  background-size: cover;
+}
+
+.Projects2{
+  background: #444 url('http://media.tumblr.com/tumblr_m40qhrHifE1qc1vog.jpg') no-repeat;
+  background-size: cover;
+}
+
+.Projects3 {
+  background: #A58C7A url("http://weknowyourdreamz.com/images/night/night-09.jpg") no-repeat;
+  background-size: cover;
+}
+
 body{
   background-image: url('http://hdwallpaperslovely.com/wp-content/gallery/creative-mobile-wallpapers/Creative-splash-of-full-colors-wallpapers-background-1920x1080.jpg');
   background-size: cover;
@@ -41,7 +56,18 @@ p{
   color: #ffffff;
 }
 
-.Projects a.info {
+.box {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  float: left;
+  color: #ffffff;
+  font-family: "Verdana";
+}
+
+.Projects1 a.info,.Projects2 a.info, .Projects3 a.info {
    display: inline-block;
    text-decoration: none;
    padding: 2% 3%;
@@ -56,9 +82,6 @@ p{
 
 .bottom_half{
   background-color: #C0C0C0;
-
-
-
 }
 
 .bottom_half h1{
