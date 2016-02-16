@@ -3,9 +3,10 @@ header{
   height: auto;
   text-align: center;
   background: url('http://hivewallpaper.com/wallpaper/2015/05/cool-3d-abstract-background-27-free-hd-wallpaper.gif');
+  /* download above image to prevent 404 */
   background-size: cover;
   color: white;
-  font-family: "Verdana";
+  font-family: "Verdana";/*remember to add fallback font*/
 }
 
 ul {
@@ -52,6 +53,8 @@ body{
   background-size: cover;
 }
 
+/* download above images and link to them locally */
+
 p{
   color: #ffffff;
 }
@@ -76,6 +79,7 @@ p{
    -webkit-box-shadow: 0 0 1px #000;
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
+   /* vendor prefixes no longer required for box shadow - http://caniuse.com/css-boxshadow */
    border-radius: 10px;
    border: 2px solid #CCC;
 }
